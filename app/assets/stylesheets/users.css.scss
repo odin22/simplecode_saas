@@ -1,0 +1,35 @@
+.avatar{
+  img{
+    border-radius: 50%;
+    -webkit-box-shadow: 10px 10px 20px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 20px -7px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 20px -7px rgba(0,0,0,0.75);
+  }
+}
+.job-title-icon{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #2e6da4;
+  border-radius: 4px;
+  background-color: #337ab7;
+  color: white;
+  text-align: center;
+}
+
+.well.profile-block{
+  color: #FFF;
+  h3{
+    margin-top: 0;
+  }
+}
+
+.profile-description{
+  background-color: #5CB85C;
+  border-color: #4CAE4C;
+}
+
+.contact-info{
+  background-color: #31B0D5;
+  border-color: #269ABC;
+}
