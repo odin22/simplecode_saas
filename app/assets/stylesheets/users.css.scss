@@ -1,11 +1,13 @@
-.avatar{
-  img{
+/* Users Picture Style */
+.user-show-avatar{
+    height: 128px;
+    width: 128px;
     border-radius: 50%;
     -webkit-box-shadow: 10px 10px 20px -7px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 20px -7px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 20px -7px rgba(0,0,0,0.75);
-  }
 }
+
 .job-title-icon{
   display: inline-block;
   width: 30px;
@@ -32,4 +34,8 @@
 .contact-info{
   background-color: #31B0D5;
   border-color: #269ABC;
+}
+
+.well.white-bg{
+  background-color: white;
 }
